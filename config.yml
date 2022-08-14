@@ -1,0 +1,45 @@
+baseURL: ""
+languageCode: "en-us"
+title: "Avinash Jayakar's blog"
+
+theme: "hugo-PaperMod"
+
+params:
+  homeInfoParams:
+    Title: Welcome 🙏
+    Content: This is a blog to document my findings on life, technology and engineering.
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/avithemad"
+    - name: "instagram"
+      url: "https://www.instagram.com/avithemad/"
+    - name: "youtube"
+      url: "https://www.youtube.com/channel/UCjl1GkvPiXqBlYiiOVGLkyA"
+
+  ShowShareButtons: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+menu:
+  main:
+    - identifier: Home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: Search
+      name: Search
+      url: /search
+      weight: 20
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 30
