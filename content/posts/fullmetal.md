@@ -1,7 +1,7 @@
 ---
 title: "Full metal fundamentals"
 date: 2021-08-25T05:29:25+05:30
-categories: ["Self improvment"]
+categories: ["Philosophy"]
 ShowToc: true
 # bookSearchExclude: false
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Bicycle adventure"
 date: 2021-05-30T05:29:25+05:30
-# bookComments: false
-# bookSearchExclude: false
+categories: ["Adventure"]
+ShowToc: true
 ---
 
 ## This is one of my bizarre adventure with BTWIN's 'My Bike'.

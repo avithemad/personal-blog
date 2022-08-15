@@ -1,8 +1,8 @@
 ---
 title: "The God's number"
 date: 2016-11-20T05:29:25+05:30
-# bookComments: false
-# bookSearchExclude: false
+categories: ["Mathematics"]
+ShowToc: true
 ---
 
 ## Why is it the God's number?

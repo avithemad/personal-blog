@@ -1,8 +1,7 @@
 ---
 title: "On chaos and order"
 date: 2021-08-29T05:29:25+05:30
-# bookComments: false
-# bookSearchExclude: false
+categories: ["Philosophy"]
 ---
 
 Chaos and order are essential for the existence. They can be seen as two faces of the same coin.
