@@ -4,6 +4,9 @@ date: 2022-08-31T05:29:25+05:30
 categories: ["Tutorial"]
 ---
 
+
+## Adding navigation in UI
+
 Creating a basic Category style navigation in react. We will try to create something like Azure devops.
 This does not have a animations, we are only using the state to represent how sidenav should look.
 Representing the navigation items as a list 
@@ -72,4 +75,36 @@ Use the following template for creating a sidenav
         <div className="flex-grow">Router outlet</div>
       </div>
     </div>
+```
+
+## Adding router
+
+```
+npm install react-router-dom@6
+```
+
+Create this in the parent component, in this example it is main.tsx
+```
+  <React.StrictMode>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />}>
+          <Route index element={<Home />} />
+          <Route path="dashboard" element={<Dashboard />} />
+          <Route path="grievances">
+            <Route path="complaints" element={<Complaints />} />
+            <Route path="query" element={<ComplaintsQuery />} />
+          </Route>
+          <Route path="grivances/query" element={<ComplaintsQuery />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
+```
+
+Add the component `Outlet` in the view port where the ouput of router should be displayed
+```
+  <div className="flex-grow">
+    <Outlet />
+  </div>
 ```
