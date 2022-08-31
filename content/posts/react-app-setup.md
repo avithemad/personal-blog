@@ -48,4 +48,10 @@ Add tailwind directive to src/index.css
 @tailwind utilities;
 ```
 
+Use this to debug css
+```
+* {
+  outline: 1px solid red;
+}
+```
 
