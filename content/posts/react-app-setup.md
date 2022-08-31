@@ -4,6 +4,7 @@ date: 2022-08-29T05:29:25+05:30
 categories: ["Text dump"]
 ---
 
+## Setup for react app with typescript and tailwind for css
 
 Initialise react app
 ```
