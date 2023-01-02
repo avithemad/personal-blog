@@ -6,8 +6,8 @@ theme: "hugo-PaperMod"
 
 params:
   homeInfoParams:
-    Title: Welcome 🙏
-    Content: This is a blog to document my findings on life, technology and engineering.
+    Title: 	स्वागतम्
+    Content: This is a blog to document about things I learn.
 
   socialIcons:
     - name: "github"
