@@ -1,7 +1,7 @@
 ---
 title: "Hurdles in learning in recent years"
 date: 2022-08-17T23:48:26+05:30
-draft: false
+draft: true
 categories: ["Self improvment"]
 ShowToc: true
 ---
